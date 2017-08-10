@@ -1,0 +1,50 @@
+/*Pamela Munghen 2017*/
+
+/*Breathing Guide keyframes*/
+@keyframes slide {
+  0% {
+    left: 45%;
+    top: 400px;
+  }
+  100% {
+    left: 45%;
+    top: 50px;
+  }
+}
+
+/*Background*/
+.bac {
+  background: #E3E4E5;
+  border-radius: 6px;
+  height: 1050px;
+  position: relative;
+  min-width: 538px;
+}
+
+/*Breathing Guide Animation and Format*/
+.breath {
+  animation-name: slide;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.breath {
+  background: #6AA2E3;
+  border-radius: 50%;
+  height: 100px;
+  position: fixed;
+  width: 100px;
+}
+
+/*Instructions*/
+.instructions {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  text-align: center;
+  position: absolute;
+  color: #636467;
+}
