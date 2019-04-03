@@ -21,7 +21,7 @@
   min-width: 538px;
 }
 
-/*Breathing Guide Animation and Format*/
+/*Breathing Guide Animation*/
 .breath {
   animation-name: slide;
   animation-duration: 5s;
